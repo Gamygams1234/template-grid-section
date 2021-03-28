@@ -1,0 +1,24 @@
+body {
+  background-color: #ecf2f8;
+}
+body .content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+body .content .moderate-violet {
+  background-color: #7541c8;
+}
+body .content .white {
+  background-color: white;
+}
+body .content .dark-blackish-blue {
+  background-color: #19212e;
+}
+body .content .light-grey {
+  background-color: #cfcfcf;
+}
+body .content .item {
+  height: 100px;
+  border-radius: 1em;
+}
