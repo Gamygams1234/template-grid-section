@@ -28,18 +28,33 @@ body .content {
 body .content .moderate-violet {
   background-color: #7541c8;
   color: white;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 50px;
+}
+body .content .moderate-violet .item-heading .profile-thumbnail {
+  border: 3px solid #9e6dee;
 }
 body .content .white {
   background-color: white;
   color: #48556a;
 }
+body .content .white .item-heading .profile-thumbnail {
+  border: 3px solid #cfcfcf;
+}
 body .content .dark-blackish-blue {
   background-color: #19212e;
   color: white;
 }
+body .content .dark-blackish-blue .item-heading .profile-thumbnail {
+  border: 3px solid #7541c8;
+}
 body .content .dark-grey {
   background-color: #48556a;
   color: white;
+}
+body .content .dark-grey .item-heading .profile-thumbnail {
+  border: 3px solid #cfcfcf;
 }
 body .content .item {
   border-radius: 1em;
